@@ -1,3 +1,7 @@
 Learning is fun!
 
 I created this in VSCode using the integrated gitbash terminal, love these extensions.
+
+Line 2: Adding another line of text.
+Additions to my new branch, with this editor....I can see a green line next to my new code
+on a seperate branch.
