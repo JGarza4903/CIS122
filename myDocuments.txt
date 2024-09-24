@@ -1,0 +1,3 @@
+Learning is fun!
+
+I created this in VSCode using the integrated gitbash terminal, love these extensions.
