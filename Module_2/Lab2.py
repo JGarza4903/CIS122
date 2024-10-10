@@ -27,7 +27,7 @@
 
 # How many bikes would you like to add to inventory? 5
 
-# You've added 5 bikes, your new inventory level are:
+# You've added 5 bikes, your new inventory level is:
 
 #     Total Stock: 15 Bikes
 #     Total Stock($): $1,499.50
