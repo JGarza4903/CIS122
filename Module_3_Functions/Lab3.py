@@ -54,7 +54,7 @@ def main():
     name = printGreeting()
 
     # inform user of current inventory level.
-    totalInventoryCost = calculateStockLevel(bikesInStock, UNIT_PRICE)
+    calculateStockLevel(bikesInStock, UNIT_PRICE)
 
     # Prompt the user to select the number of bikes to enter in inventory.
     qtyToAdd = addItem()
@@ -63,7 +63,7 @@ def main():
     bikesInStock = updateStock(qtyToAdd, bikesInStock)
 
     # Echo back their selection and inform user of updated stock levels.
-    totalInventoryCost = calculateStockLevel(bikesInStock, UNIT_PRICE)
+    calculateStockLevel(bikesInStock, UNIT_PRICE)
 
     # Inform the user the program has finished running. 
     printGoodbye(name)
@@ -98,8 +98,6 @@ def calculateStockLevel(bikesInStock, UNIT_PRICE):
         Total Stock:        {} Bikes
         Total Stock($):     ${:,.2f}
         """.format(bikesInStock, totalInventoryCost))
-
-    return totalInventoryCost
 
 def addItem():
     """
